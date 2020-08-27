@@ -15,6 +15,8 @@
 		2501A0D424F77397009E3328 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2501A0D224F77397009E3328 /* LaunchScreen.storyboard */; };
 		2501A0DF24F77398009E3328 /* RenauxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2501A0DE24F77398009E3328 /* RenauxTests.swift */; };
 		2501A0EA24F77398009E3328 /* RenauxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2501A0E924F77398009E3328 /* RenauxUITests.swift */; };
+		2501A0F824F774F4009E3328 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2501A0F724F774F4009E3328 /* WebViewController.swift */; };
+		2573091524F82F6500133945 /* renaux_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2573091424F82F6400133945 /* renaux_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2501A0E524F77398009E3328 /* RenauxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RenauxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2501A0E924F77398009E3328 /* RenauxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenauxUITests.swift; sourceTree = "<group>"; };
 		2501A0EB24F77398009E3328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2501A0F724F774F4009E3328 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		2573091424F82F6400133945 /* renaux_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = renaux_logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,11 @@
 		2501A0C624F7734E009E3328 /* Renaux */ = {
 			isa = PBXGroup;
 			children = (
+				2573091424F82F6400133945 /* renaux_logo.png */,
 				2501A0C724F7734E009E3328 /* AppDelegate.swift */,
 				2501A0C924F7734E009E3328 /* SceneDelegate.swift */,
 				2501A0CB24F7734E009E3328 /* ViewController.swift */,
+				2501A0F724F774F4009E3328 /* WebViewController.swift */,
 				2501A0CD24F7734E009E3328 /* Main.storyboard */,
 				2501A0D024F77397009E3328 /* Assets.xcassets */,
 				2501A0D224F77397009E3328 /* LaunchScreen.storyboard */,
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2501A0D424F77397009E3328 /* LaunchScreen.storyboard in Resources */,
+				2573091524F82F6500133945 /* renaux_logo.png in Resources */,
 				2501A0D124F77397009E3328 /* Assets.xcassets in Resources */,
 				2501A0CF24F7734E009E3328 /* Main.storyboard in Resources */,
 			);
@@ -262,6 +269,7 @@
 				2501A0CC24F7734E009E3328 /* ViewController.swift in Sources */,
 				2501A0C824F7734E009E3328 /* AppDelegate.swift in Sources */,
 				2501A0CA24F7734E009E3328 /* SceneDelegate.swift in Sources */,
+				2501A0F824F774F4009E3328 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
